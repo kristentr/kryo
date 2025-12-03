@@ -2,9 +2,9 @@ name: Xcode - Build and Analyze
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "add-Xcode-workflow-build" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "add-Xcode-workflow-build" ]
 
 jobs:
   build:
